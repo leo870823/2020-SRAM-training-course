@@ -5,3 +5,4 @@ In this Lab, we will learn how to use memory compiler to generate SRAM and regis
 1. Dual-Port SRAM
 2. Asynchronous FIFO Memory Replacement (implementation uses [Asynchronous dual clock FIFO](https://github.com/dpretet/async_fifo)). 
 
+
