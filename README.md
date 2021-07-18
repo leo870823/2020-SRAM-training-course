@@ -1,4 +1,4 @@
-# 2020-SRAM-training-course
+# 2021-SRAM-training-course
 ## Description
 In this Lab, we will learn how to use memory compiler to generate SRAM and register files
 ## Labs
