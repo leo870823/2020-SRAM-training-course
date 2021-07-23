@@ -21,7 +21,7 @@ module sram_tb;
 	reg  [511:0] golden_sram_in  [NUM_PAT-1:0];
 	reg  [511:0] golden_sram_out [NUM_PAT-1:0];
 		
-	wire pass = (sram_out==golden_sram_out[out_index]);
+	wire pass = (sram_out===golden_sram_out[out_index]);
     
 	sram_wrapper sram_unit
 	(
