@@ -78,8 +78,8 @@ generate
 	sram_dp_64x128 sbj_memory ( 
 		.CLKA(CLK),
 		.CLKB(CLK),
-		.CENA( !sram_REN ),
-		.CENB( !sram_WEN  ),    
+		.CENA( !sram_WEN ),
+		.CENB( !sram_REN  ),    
 		.WENA(1'b0),    // port A is always used to store
 		.WENB(1'b1),    // port B provide the sequence data to register array/
 		.AA(sram_waddr),   
