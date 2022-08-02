@@ -25,7 +25,7 @@ set compile_top_all_paths "true"
 set_host_options -max_cores 16
 source -verbose -echo ./syn_sdc/clk.sdc
 
-set_max_area        0
+set_max_area        10000
 set_max_fanout      20  async_fifo
 set_max_transition  1   async_fifo
 
